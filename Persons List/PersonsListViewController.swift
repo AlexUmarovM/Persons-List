@@ -23,22 +23,22 @@ class PersonsListViewController: UITableViewController {
     }
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "person", for: indexPath)
+        let cell = tableView.dequeueReusableCell(withIdentifier: "personName", for: indexPath) // Алексей, просьба обьяснить, почему если индефенитор ячейки назвать просто "person", а не "personName", то информация на второй экран не передается?
 
         cell.textLabel?.text = personsList[indexPath.row].fullname
 
 
         return cell
     }
-  override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         guard let indexPath = tableView.indexPathForSelectedRow else { return }
         if segue.identifier == "showDetails" {
-            let personDetails = segue.destination as? PersonDetailsViewController
-            personDetails?.person = personsList[indexPath.row]
+            let personDetails = segue.destination as! PersonDetailsViewController
+            personDetails.person = personsList[indexPath.row]
         }
+        
     }
 }
-
 
 
 

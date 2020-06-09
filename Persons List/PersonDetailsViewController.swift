@@ -12,10 +12,12 @@ class PersonDetailsViewController: UIViewController {
     @IBOutlet var phoneLabel: UILabel!
     @IBOutlet var emailLabel: UILabel!
     
-    var person: Person?
+    var person: Person!
     override func viewDidLoad() {
         super.viewDidLoad()
-//        self.navigationItem.title = person?.fullname ?? "nil"
+        self.navigationItem.title = person.fullname
+        phoneLabel.text = person.phone
+        emailLabel.text = person.email
     }
     
 

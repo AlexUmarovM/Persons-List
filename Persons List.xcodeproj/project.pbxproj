@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		FAB6148024901024006713BF /* PersonDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB6147F24901024006713BF /* PersonDetailsViewController.swift */; };
+		FAB6148224902AC1006713BF /* PersonSectionsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB6148124902AC1006713BF /* PersonSectionsTableViewController.swift */; };
 		FAE9DF76248F7BC2000A29FA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE9DF75248F7BC2000A29FA /* AppDelegate.swift */; };
 		FAE9DF78248F7BC2000A29FA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE9DF77248F7BC2000A29FA /* SceneDelegate.swift */; };
 		FAE9DF7A248F7BC2000A29FA /* PersonsListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE9DF79248F7BC2000A29FA /* PersonsListViewController.swift */; };
@@ -19,6 +20,7 @@
 
 /* Begin PBXFileReference section */
 		FAB6147F24901024006713BF /* PersonDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonDetailsViewController.swift; sourceTree = "<group>"; };
+		FAB6148124902AC1006713BF /* PersonSectionsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonSectionsTableViewController.swift; sourceTree = "<group>"; };
 		FAE9DF72248F7BC2000A29FA /* Persons List.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Persons List.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAE9DF75248F7BC2000A29FA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FAE9DF77248F7BC2000A29FA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -64,6 +66,7 @@
 				FAE9DF77248F7BC2000A29FA /* SceneDelegate.swift */,
 				FAE9DF79248F7BC2000A29FA /* PersonsListViewController.swift */,
 				FAB6147F24901024006713BF /* PersonDetailsViewController.swift */,
+				FAB6148124902AC1006713BF /* PersonSectionsTableViewController.swift */,
 				FAE9DF89248F8129000A29FA /* Person.swift */,
 				FAE9DF7B248F7BC2000A29FA /* Main.storyboard */,
 				FAE9DF7E248F7BC4000A29FA /* Assets.xcassets */,
@@ -144,6 +147,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FAB6148224902AC1006713BF /* PersonSectionsTableViewController.swift in Sources */,
 				FAB6148024901024006713BF /* PersonDetailsViewController.swift in Sources */,
 				FAE9DF7A248F7BC2000A29FA /* PersonsListViewController.swift in Sources */,
 				FAE9DF76248F7BC2000A29FA /* AppDelegate.swift in Sources */,
