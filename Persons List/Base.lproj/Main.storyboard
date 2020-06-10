@@ -42,7 +42,7 @@
                             <outlet property="delegate" destination="7D4-wB-xcf" id="1Gj-71-LWR"/>
                         </connections>
                     </tableView>
-                    <tabBarItem key="tabBarItem" title="Contacts" selectedImage="person.circle.fill" catalog="system" id="6Tl-xf-BeD"/>
+                    <tabBarItem key="tabBarItem" title="Contacts" selectedImage="square.and.arrow.up" catalog="system" id="6Tl-xf-BeD"/>
                     <navigationItem key="navigationItem" title="Persons List" id="2Xc-eF-dtV"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="a1P-1e-iwY" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -74,7 +74,7 @@
                             <outlet property="delegate" destination="wON-Ee-DcR" id="b9d-iw-Fas"/>
                         </connections>
                     </tableView>
-                    <tabBarItem key="tabBarItem" title="Contacts" selectedImage="person.circle" catalog="system" id="axj-X8-2sx"/>
+                    <tabBarItem key="tabBarItem" title="Contacts" selectedImage="square.and.arrow.down.fill" catalog="system" id="axj-X8-2sx"/>
                 </tableViewController>
             </objects>
             <point key="canvasLocation" x="441" y="851"/>
@@ -159,7 +159,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="person.circle" catalog="system" width="128" height="121"/>
-        <image name="person.circle.fill" catalog="system" width="128" height="121"/>
+        <image name="square.and.arrow.down.fill" catalog="system" width="121" height="128"/>
+        <image name="square.and.arrow.up" catalog="system" width="115" height="128"/>
     </resources>
 </document>

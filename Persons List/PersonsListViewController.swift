@@ -9,25 +9,24 @@
 import UIKit
 
 class PersonsListViewController: UITableViewController {
-
+    
     
     var personsList = Person.getPersonsList()
     
     
     override func viewDidLoad() {
-           super.viewDidLoad()
-        print(personsList)
-       }
+        super.viewDidLoad()
+    }
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         personsList.count
     }
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "personName", for: indexPath) // Алексей, просьба обьяснить, почему если индефенитор ячейки назвать просто "person", а не "personName", то информация на второй экран не передается?
-
+        
         cell.textLabel?.text = personsList[indexPath.row].fullname
-
-
+        
+        
         return cell
     }
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
